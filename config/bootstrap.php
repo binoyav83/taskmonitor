@@ -221,4 +221,3 @@ if (Configure::read('debug')) {
     Plugin::load('DebugKit', ['bootstrap' => true]);
 }
 
-Plugin::load('Task', ['bootstrap' => false, 'routes' => true]);
